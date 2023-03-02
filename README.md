@@ -48,17 +48,19 @@
 <h2 align="center">👨‍💻 Repositories 👨‍💻</h2>
 <br>
 <div width="100%" align="center">
-  <a align="left" href="https://github.com/eshanvaid/Algorithms" title="Algorithms"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=stock-auction&theme=react&border_color=61dafb&border_radius=10"></a><a align="right" href="https://github.com/eshanvaid/DataStructures" title="Data Structures"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=DataStructures&theme=react&border_color=61dafb&border_radius=10"></a>
+  <a align="left" href="https://github.com/eshanvaid/stock-auction" title="Stock Auction"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=stock-auction&theme=react&border_color=61dafb&border_radius=10"></a>
+	 <a align="left" href="https://github.com/eshanvaid/hate-tweets-detector" title="Hate Tweets Detector"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=hate-tweets-detector&theme=react&border_color=61dafb&border_radius=10"></a>
+<br/><br/><br/><br/><br/><br/>
+<div width="100%" align="center">
+	<a align="right" href="https://github.com/eshanvaid/human-motion-prediction" title="Human Motion Prediction"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=human-motion-prediction&theme=react&border_color=61dafb&border_radius=10"></a>
+</div>
+ 
+  <a align="right" href="https://github.com/eshanvaid/webpage-downloader" title="Webpage Downloader"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=webpage-downloader&theme=react&border_color=61dafb&border_radius=10"></a>
 </div>
 <br/><br/><br/><br/><br/><br/>
 <div width="100%" align="center">
-  <a align="left" href="https://github.com/eshanvaid/Turkce-Heceleme-CPP" title="Turkce-Heceleme-CPP"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=Turkce-Heceleme-CPP&theme=react&border_color=61dafb&border_radius=10"></a>
-  <a align="right" href="https://github.com/eshanvaid/CopyMoveForgeryDetectionWithDCT" title="Copy&Move Forgery Detection With DCT"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=CopyMoveForgeryDetectionWithDCT&theme=react&border_color=61dafb&border_radius=10"></a>
-</div>
-<br/><br/><br/><br/><br/><br/>
-<div width="100%" align="center">
-  <a align="left" href="https://github.com/eshanvaid/cpp-openmp-needleman-wunsch" title="Needleman Wunsch Algorithm With OpenMP"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=cpp-openmp-needleman-wunsch&theme=react&border_color=61dafb&border_radius=10"></a>
-  <a align="right" href="https://github.com/eshanvaid/javascript-minesweeper" title="Minesweeper"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=javascript-minesweeper&theme=react&border_color=61dafb&border_radius=10"></a>
+  <a align="left" href="https://github.com/eshanvaid/query-builder" title="Query Builder"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&query-builder&theme=react&border_color=61dafb&border_radius=10"></a>
+  <a align="right" href="https://github.com/eshanvaid/Weather-App" title="Weather App"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=Weather-App&theme=react&border_color=61dafb&border_radius=10"></a>
 </div>
 <br/><br/><br/><br/><br/><br/>
 
