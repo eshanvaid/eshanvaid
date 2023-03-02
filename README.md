@@ -52,7 +52,7 @@
 	 <a align="left" href="https://github.com/eshanvaid/hate-tweets-detector" title="Hate Tweets Detector"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=hate-tweets-detector&theme=react&border_color=61dafb&border_radius=10"></a>
 <br/><br/><br/><br/><br/><br/>
 <div width="100%" align="center">
-	<a align="right" href="https://github.com/eshanvaid/human-motion-prediction" title="Human Motion Prediction"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=human-motion-prediction&theme=react&border_color=61dafb&border_radius=10"></a>
+	<a align="left" href="https://github.com/eshanvaid/human-motion-prediction" title="Human Motion Prediction"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=human-motion-prediction&theme=react&border_color=61dafb&border_radius=10"></a>
 </div>
  
   <a align="right" href="https://github.com/eshanvaid/webpage-downloader" title="Webpage Downloader"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=eshanvaid&repo=webpage-downloader&theme=react&border_color=61dafb&border_radius=10"></a>
