@@ -1473,20 +1473,11 @@
   ],
   "repos": [
     {
-      "name": "stock-auction",
-      "description": "Stock Market auction simulator",
-      "url": "https://github.com/eshanvaid/stock-auction",
+      "name": "decant",
+      "description": "Local evidence compiler for AI-assisted production debugging.",
+      "url": "https://github.com/decant-ai/decant",
       "primaryLanguage": {
-        "name": "JavaScript"
-      },
-      "stargazerCount": 1
-    },
-    {
-      "name": "hate-tweets-detector",
-      "description": "NLP model which detects the probability of a twitter user being a hate spreader.",
-      "url": "https://github.com/eshanvaid/hate-tweets-detector",
-      "primaryLanguage": {
-        "name": "CSS"
+        "name": "Rust"
       },
       "stargazerCount": 0
     },
@@ -1500,11 +1491,11 @@
       "stargazerCount": 4
     },
     {
-      "name": "webpage-downloader",
-      "description": "Server endpoint that takes the URL of a webpage as input, fetches the webpage, and downloads it as a file on the local file system.",
-      "url": "https://github.com/eshanvaid/webpage-downloader",
+      "name": "hate-tweets-detector",
+      "description": "NLP model which detects the probability of a twitter user being a hate spreader.",
+      "url": "https://github.com/eshanvaid/hate-tweets-detector",
       "primaryLanguage": {
-        "name": "Go"
+        "name": "CSS"
       },
       "stargazerCount": 0
     },
@@ -1516,6 +1507,24 @@
         "name": "TypeScript"
       },
       "stargazerCount": 1
+    },
+    {
+      "name": "stock-auction",
+      "description": "Stock Market auction simulator",
+      "url": "https://github.com/eshanvaid/stock-auction",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "stargazerCount": 1
+    },
+    {
+      "name": "webpage-downloader",
+      "description": "Server endpoint that takes the URL of a webpage as input, fetches the webpage, and downloads it as a file on the local file system.",
+      "url": "https://github.com/eshanvaid/webpage-downloader",
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "stargazerCount": 0
     },
     {
       "name": "Weather-App",

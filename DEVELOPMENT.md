@@ -6,7 +6,10 @@ Backgrounds are transparent so they inherit the exact surrounding GitHub theme.
 Light: ink #1f2328, muted #59636e, border #d1d9e0, accent #59684d.
 Dark: ink #f0f6fc, muted #9198a1, border #3d444d, accent #a9bf8e.
 Cormorant Garamond display and Manrope body fonts are bundled with OFL licenses.
-The original README's six featured repos are preserved.
+Decant leads the featured projects, followed by human-motion-prediction,
+hate-tweets-detector, query-builder, stock-auction, webpage-downloader and
+Weather-App. FEATURED uses owner/repo identifiers so the daily refresh also
+fetches Decant from the decant-ai organisation.
 
 ```sh
 python3 -m venv .venv

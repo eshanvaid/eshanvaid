@@ -10,11 +10,11 @@ STATIC = os.getenv('STATIC') == '1'
 LIGHT = ('none', '#1f2328', '#59636e', '#d1d9e0', '#59684d')
 DARK = ('none', '#f0f6fc', '#9198a1', '#3d444d', '#a9bf8e')
 PAPER, INK, MUTED, LINE, ACCENT = LIGHT
-FEATURED = ['stock-auction', 'hate-tweets-detector', 'human-motion-prediction', 'webpage-downloader', 'query-builder', 'Weather-App']
+FEATURED = ['decant-ai/decant', 'eshanvaid/human-motion-prediction', 'eshanvaid/hate-tweets-detector', 'eshanvaid/query-builder', 'eshanvaid/stock-auction', 'eshanvaid/webpage-downloader', 'eshanvaid/Weather-App']
 
 def refresh():
     token = os.environ['GITHUB_TOKEN']
-    fields = ' '.join(f'r{i}: repository(owner:"eshanvaid",name:"{name}") {{ name description url primaryLanguage {{ name }} stargazerCount }}' for i, name in enumerate(FEATURED))
+    fields = ' '.join(f'r{i}: repository(owner:"{owner}",name:"{name}") {{ name description url primaryLanguage {{ name }} stargazerCount }}' for i, full_name in enumerate(FEATURED) for owner, name in [full_name.split('/')])
     query = '{ user(login:"eshanvaid") { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } ' + fields + ' }'
     req = urllib.request.Request('https://api.github.com/graphql', data=json.dumps({'query': query}).encode(), headers={'Authorization': f'Bearer {token}', 'Content-Type': 'application/json', 'User-Agent': 'profile-cards'})
     with urllib.request.urlopen(req, timeout=45) as response:
@@ -66,6 +66,8 @@ def animated_line(path, delay):
 
 def render(data):
     validate(data)
+    by_name = {'/'.join(repo['url'].rstrip('/').split('/')[-2:]): repo for repo in data['repos']}
+    data = {**data, 'repos': [by_name[name] for name in FEATURED if name in by_name]}
     body = text(480,112,'Eshan Vaid',78,True,extra='text-anchor="middle"')
     card('hero',180,body,0,'Eshan Vaid')
     for i,(name,label,sub) in enumerate([('website','The pavilion','Explore eshan.fyi'),('linkedin','Let’s connect'.replace('’',"'"),'Find me on LinkedIn'),('github','Open source','Browse my repositories')]):
