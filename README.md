@@ -7,10 +7,16 @@
 </p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/activity.svg" /><img src="cards/activity.svg" width="100%" alt="Monthly contribution totals, streak, active days and busiest day" /></picture></p>
-<p><a href="https://github.com/eshanvaid/stock-auction"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-stock-auction.svg" /><img src="cards/repo-stock-auction.svg" width="100%" alt="stock-auction" /></picture></a></p>
-<p><a href="https://github.com/eshanvaid/hate-tweets-detector"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-hate-tweets-detector.svg" /><img src="cards/repo-hate-tweets-detector.svg" width="100%" alt="hate-tweets-detector" /></picture></a></p>
-<p><a href="https://github.com/eshanvaid/human-motion-prediction"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-human-motion-prediction.svg" /><img src="cards/repo-human-motion-prediction.svg" width="100%" alt="human-motion-prediction" /></picture></a></p>
-<p><a href="https://github.com/eshanvaid/webpage-downloader"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-webpage-downloader.svg" /><img src="cards/repo-webpage-downloader.svg" width="100%" alt="webpage-downloader" /></picture></a></p>
-<p><a href="https://github.com/eshanvaid/query-builder"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-query-builder.svg" /><img src="cards/repo-query-builder.svg" width="100%" alt="query-builder" /></picture></a></p>
-<p><a href="https://github.com/eshanvaid/Weather-App"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-Weather-App.svg" /><img src="cards/repo-Weather-App.svg" width="100%" alt="Weather-App" /></picture></a></p>
+<p>
+<a href="https://github.com/eshanvaid/stock-auction"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-stock-auction.svg" /><img src="cards/repo-stock-auction.svg" width="49%" alt="stock-auction" /></picture></a>
+<a href="https://github.com/eshanvaid/hate-tweets-detector"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-hate-tweets-detector.svg" /><img src="cards/repo-hate-tweets-detector.svg" width="49%" alt="hate-tweets-detector" /></picture></a>
+</p>
+<p>
+<a href="https://github.com/eshanvaid/human-motion-prediction"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-human-motion-prediction.svg" /><img src="cards/repo-human-motion-prediction.svg" width="49%" alt="human-motion-prediction" /></picture></a>
+<a href="https://github.com/eshanvaid/webpage-downloader"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-webpage-downloader.svg" /><img src="cards/repo-webpage-downloader.svg" width="49%" alt="webpage-downloader" /></picture></a>
+</p>
+<p>
+<a href="https://github.com/eshanvaid/query-builder"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-query-builder.svg" /><img src="cards/repo-query-builder.svg" width="49%" alt="query-builder" /></picture></a>
+<a href="https://github.com/eshanvaid/Weather-App"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/repo-Weather-App.svg" /><img src="cards/repo-Weather-App.svg" width="49%" alt="Weather-App" /></picture></a>
+</p>
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/contributions.svg" /><img src="cards/contributions.svg" width="100%" alt="My contribution calendar in olive green" /></picture></p>

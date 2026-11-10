@@ -1,7 +1,10 @@
 # Profile cards
 
-Brand source: https://eshan.fyi/ (read 2026-11-10). Light palette adapted from the site:
-paper #f3f0e8, ink #343d32, muted #686f61, line #d7d6c9, accent #59684d.
+Brand source: https://eshan.fyi/ (read 2026-11-10). Cards retain the site's
+olive accent and typography, with GitHub-compatible foregrounds and borders.
+Backgrounds are transparent so they inherit the exact surrounding GitHub theme.
+Light: ink #1f2328, muted #59636e, border #d1d9e0, accent #59684d.
+Dark: ink #f0f6fc, muted #9198a1, border #3d444d, accent #a9bf8e.
 Cormorant Garamond display and Manrope body fonts are bundled with OFL licenses.
 The original README's six featured repos are preserved.
 
@@ -42,8 +45,12 @@ with `GITHUB_TOKEN=... python scripts/render_cards.py --refresh` (use an env
 secret; never commit credentials). README is generated with outer anchor tags,
 because links inside an SVG do not work when it is embedded as an img.
 
-Cards now ship in two palettes. Light retains warm paper and olive; dark uses
-#161c18 panels, #eeeede text, #a5af9e muted text, #303b31 borders and #a9bf8e
-sage accents. README picture/source markup selects the dark SVGs using
-prefers-color-scheme. The daily renderer updates both sets. Preview HTML follows
-your browser colour preference; static previews also include both sets.
+README picture/source markup selects the dark SVGs using prefers-color-scheme.
+The daily renderer updates both sets. Preview HTML follows the browser colour
+preference; static previews also include both sets. Repositories are laid out
+in pairs using 49%-width img elements and 470px-wide SVGs with wrapped descriptions.
+
+GitHub strips target attributes from README links (verified against its Markdown
+API). New-tab clicks cannot be forced on the profile; use Cmd/Ctrl-click or
+middle-click. The standalone preview uses target="_blank" and rel="noopener
+noreferrer", where browsers support the requested behaviour.
